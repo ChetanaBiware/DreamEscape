@@ -1,0 +1,227 @@
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color:teal;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.company-name {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom:50px;
+}
+button{
+	border:transparent;
+}
+.btn {
+	
+	margin-top:1000px;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.mybg{
+	background-image:url('chetanaBiware.jpg');
+	margin-left:700px;
+	background-size:cover;
+	height:100px;
+	width:70px;
+	position:relative;
+	justify-content:center;
+	
+}
+/* Introduction section styles */
+.introduction {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Tour Plans section styles */
+.tour-plans {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tour-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tour-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tour-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.tour-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* You can use the same .btn style from the previous CSS for your "Book Now" button */
+
+
+/* Tour plans section styles */
+.OTP{
+	/* display:flex; */
+	/* justify:center; */
+	align-items:center;
+	margin-top:30px;
+	margin-bottom:10px;
+	color:white;
+}
+.tour-plans {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tour-plans .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tour-plan {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    flex: 0 0 calc(30% - 20px); /* Adjust the width as needed */
+}
+
+.tour-plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tour-plan p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #f39c12;
+}
+/* Background Animation */
+body {
+    background: linear-gradient(-45deg, #3498db, #f39c12, #e74c3c, #9b59b6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Other styles remain the same */
+/* ... */
